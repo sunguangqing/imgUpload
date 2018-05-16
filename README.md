@@ -149,7 +149,8 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
 ```
 
 #### `图片拖拽排序 JS代码：`
->使用拖拽排序需引入 jquery-ui.min.css文件和 jquery-ui.min.js文件, `<link href="css/jquery-ui.min.css" rel="stylesheet" />  <script src="js/jquery-ui.min.js"></script>`
+>使用拖拽排序需引入 jquery-ui.min.css文件和 jquery-ui.min.js文件, 
+>`<link href="css/jquery-ui.min.css" rel="stylesheet" />`  `<script src="js/jquery-ui.min.js"></script>`
 
 ```javascript
 // 图片上传 排序
