@@ -5,7 +5,7 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
 ### 图片上传预览插件使用
 >下载imgUpload.js文件引用到页面中,<script src="js/imgUpload.js"></script>
 
-`#### HTML结构：`
+#### `HTML结构：`
 ```html
   <div class="imgUpload">
     <ul class="imgBox">
@@ -16,7 +16,7 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
   </div>
 ```
 
-`#### CSS代码:`
+#### `CSS代码:`
 ```css
   .imgUpload .imgBox{
       position: relative;
@@ -76,7 +76,7 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
   }
 ```
 
-`#### 图片上传预览 JS代码：`
+#### `图片上传预览 JS代码：`
 ```javascript
   // 图片上传预览
   (function imgUpload() {
@@ -142,8 +142,8 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
   })();
 ```
 
-`#### 图片拖拽排序 JS代码：`
-“使用拖拽排序需引入 jQueryUI JS文件”
+#### `图片拖拽排序 JS代码：`
+>使用拖拽排序需引入 jQueryUI JS文件
 ```javascript
   // 图片上传 排序
   $(".imgBox").sortable({
