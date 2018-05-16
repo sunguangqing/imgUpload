@@ -3,7 +3,7 @@
 https://sunguangqing.github.io/imgUpload/imgUpload.html
 
 ### 图片上传预览插件使用
->下载imgUpload.js文件引用到页面中, <script src="js/imgUpload.js"></script>
+>可直接下载imgUpload.js文件引用到页面中, <script src="js/imgUpload.js"></script>
 
 #### `HTML结构：`
 ```html
