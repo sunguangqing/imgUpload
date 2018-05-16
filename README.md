@@ -3,10 +3,8 @@
 https://sunguangqing.github.io/imgUpload/imgUpload.html
 
 ### 图片上传预览插件使用
->可直接下载imgUpload.js文件引用到页面中 
-```javascript
-<script src="js/imgUpload.js"></script>
-```
+>可直接下载imgUpload.js文件引用到页面中, `<script src="js/imgUpload.js"></script>`
+
 
 #### `HTML结构：`
 ```html
@@ -151,11 +149,7 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
 ```
 
 #### `图片拖拽排序 JS代码：`
->使用拖拽排序需引入 jquery-ui.min.css文件和 jquery-ui.min.js文件
-```javascript
-<link href="css/jquery-ui.min.css" rel="stylesheet" />
-<script src="js/jquery-ui.min.js"></script>  
-```
+>使用拖拽排序需引入 jquery-ui.min.css文件和 jquery-ui.min.js文件, `<link href="css/jquery-ui.min.css" rel="stylesheet" />  <script src="js/jquery-ui.min.js"></script>`
 
 ```javascript
 // 图片上传 排序
