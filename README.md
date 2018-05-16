@@ -15,6 +15,10 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
     <p class="fl imgPrompt">共<i></i>张，还能上传<i></i>张</p>
   </div>
 ```
+>更改 `.imgFile` 下 `input[type = "file"]` 控件的自定义属性 `maxlength` 的值来设定最多可上传图片的张数； 
+>accept="image/gif, image/jpg, image/jpeg, image/png" 用来过滤上传文件的格式。
+
+
 
 #### `CSS代码:`
 ```css
@@ -75,6 +79,7 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
       display: block;
   }
 ```
+
 
 #### `图片上传预览 JS代码：`
 ```javascript
@@ -144,8 +149,7 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
 
 #### `图片拖拽排序 JS代码：`
 >使用拖拽排序需引入 jquery-ui.min.js文件和 jquery-ui.min.css文件, 
-><script src="js/jquery-ui.min.js"></script>
-><link href="css/jquery-ui.min.css" rel="stylesheet" />
+><script src="js/jquery-ui.min.js"></script>  <link href="css/jquery-ui.min.css" rel="stylesheet" />
 
 ```javascript
   // 图片上传 排序
