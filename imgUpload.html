@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 根据浏览器的屏幕大小自适应的展现合适的效果 -->
+    <meta name="applicable-device" content="pc,mobile"/>
+    <!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <!--自动选择更好的浏览器-->
+    <meta name="renderer" content="webkit">
+    <title>图片上传预览</title>
+    <link href="css/jquery-ui.min.css" rel="stylesheet" />
+    <link href="css/imgUpload.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="clearfix wrap">
+    <span class="fl caption"><i class="color-f00">*</i> 商品图片：</span>
+    <div class="fl imgUpload">
+        <ul class="fl imgBox">
+            <li class="imgList"><img src="images/test-img.png" /> <span class="imgDel"><i></i></span></li>
+            <span class="mainImg">商品主图</span>
+        </ul>
+        <label class="fl imgFile"><input type="file" multiple maxlength="5" accept="image/gif, image/jpg, image/jpeg, image/png"  /></label>
+        <p class="fl imgPrompt">共<i></i>张，还能上传<i></i>张</p>
+        <p class="explain clearfix">备注：上传图片的最佳尺寸：720像素*720像素，其他尺寸会影响页效果，格式png，jpeg，jpg，gif。大小不超过2M，商品图片一共可以上传5张，默认第一张为主图封面.</p>
+    </div>
+</div>
+
+<div class="clearfix wrap">
+    <span class="fl caption"><i class="color-f00">*</i> 商品图片：</span>
+    <div class="fl imgUpload">
+        <ul class="fl imgBox">
+            <span class="mainImg">商品主图</span>
+        </ul>
+        <label class="imgFile"><input type="file" multiple maxlength="5" accept="image/gif, image/jpg, image/jpeg, image/png" /></label>
+        <p class="fl imgPrompt">共<i></i>张，还能上传<i></i>张</p>
+        <p class="explain clearfix">备注：上传图片的最佳尺寸：720像素*720像素，其他尺寸会影响页效果，格式png，jpeg，jpg，gif。大小不超过2M，商品图片一共可以上传5张，默认第一张为主图封面.</p>
+    </div>
+</div>
+
+<div class="clearfix wrap">
+    <span class="fl caption"><i class="color-f00">*</i> 商品图片：</span>
+    <div class="fl imgUpload">
+        <ul class="fl imgBox"></ul>
+        <label class="imgFile"><input type="file" multiple maxlength="2" accept="image/gif, image/jpg, image/jpeg, image/png" /></label>
+        <p class="fl imgPrompt">共<i></i>张，还能上传<i></i>张</p>
+        <p class="explain clearfix">备注：上传图片的最佳尺寸：720像素*720像素，其他尺寸会影响页效果，格式png，jpeg，jpg，gif。大小不超过2M，商品图片一共可以上传5张，默认第一张为主图封面.</p>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/imgUpload.js"></script>
+</body>
+</html>

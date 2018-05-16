@@ -1,0 +1,149 @@
+/*reset css*/
+body, div, p, input, button, textarea, select, img, h1, h2, h3, h4, h5, h6, dl, dd, dt, ul, ol, li, a, em, i,
+table, tbody, thead, th, td, em {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul, ol, li {
+    list-style: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input, textarea, select, button, img {
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+:focus {
+    outline: none;
+}
+/*浮动*/
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/*清除浮动*/
+.clearfix {
+    zoom: 1;
+    clear: both;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+/*行内元素*/
+.inline, span, a, b, i, em {
+    display: inline-block;
+}
+.color-f00 {
+    color: #f00;
+}
+
+/*开始*/
+.wrap{
+    width: 1200px;
+    margin: 50px auto 0;
+}
+.wrap .caption {
+    width: 150px;
+    text-align: right;
+    line-height: 32px;
+    padding-right: 10px;
+}
+/*主要图片上传css*/
+.imgUpload{
+    width: calc(100% - 200px);
+    width: -webkit-calc(100% - 200px);
+    width: -moz-calc(100% - 200px);
+}
+.imgUpload .imgBox{
+    position: relative;
+    height: 130px;
+}
+.imgUpload .imgBox .mainImg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 130px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+.imgUpload .imgBox .imgList, .imgUpload .imgFile{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin-right: 12px;
+}
+.imgUpload .imgBox .imgList img{
+    width: 100%;
+    height: 100%;
+    border: 1px dotted #d9d9d9;
+}
+.imgUpload .imgFile{
+    background: url(../images/upload-img.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+.imgUpload .imgFile input{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+}
+.imgUpload .imgPrompt{
+    line-height: 130px;
+    color: #8c8c8c;
+}
+.imgUpload .imgPrompt i{
+    color: #f90;
+    font-weight: bold;
+}
+.imgBox .imgDel{
+    display: none;
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    right: 0;
+    top: 0;
+    left: auto;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    cursor: pointer;
+}
+.imgBox .imgDel i{
+    width: 20px;
+    height: 20px;
+    background: url("../images/shop-sprite.png") no-repeat -323px -10px;
+    margin-top: 3.5px;
+}
+.imgUpload .imgBox li:hover .imgDel{
+    display: block;
+}
+.imgUpload .explain{
+    color: #8c8c8c;
+    font-size: 12px;
+    padding: 15px 0 10px;
+}
