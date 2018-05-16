@@ -5,8 +5,8 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
 ### 图片上传预览插件使用
 下载imgUpload.js文件引用到页面中,<script src="js/imgUpload.js"></script>
 
->HTML结构：
-<code>
+=== HTML结构：
+```
   <div class="imgUpload">
     <ul class="imgBox">
       <li class="imgList"><img src="../images/test-img.png" /> <span class="imgDel"><i></i></span></li>
@@ -14,10 +14,10 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
     <label class="imgFile"><input type="file" multiple maxlength="5" accept="image/gif, image/jpg, image/jpeg, image/png" /></label>
     <p class="fl imgPrompt">共<i></i>张，还能上传<i></i>张</p>
   </div>
-</code>
+```
 
->CSS代码:
-<code>
+=== CSS代码:
+```
   .imgUpload .imgBox{
       position: relative;
       height: 130px;
@@ -74,10 +74,10 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
   .imgUpload .imgBox li:hover .imgDel{
       display: block;
   }
-</code>
+```
 
->图片上传预览 JS代码：
-<code>
+=== 图片上传预览 JS代码：
+```
   // 图片上传预览
   (function imgUpload() {
       var $fileTag = $(".imgFile input"); //上传文件选择器控件
@@ -140,15 +140,15 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
           return url ;
       }
   })();
-</code>
+```
 
->图片拖拽排序 JS代码：
+=== 图片拖拽排序 JS代码：
 “使用拖拽排序需引入 jQueryUI JS文件.”
-<code>
+```
   // 图片上传 排序
   $(".imgBox").sortable({
       cursor: "move",
       opacity: 0.6, //拖动时，透明度为0.6
       revert: true //释放时，增加动画
   });
-</code>
+```
