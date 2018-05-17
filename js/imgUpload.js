@@ -39,6 +39,8 @@ $(function () {
                 $fileBox.hide();
             }
         });
+        
+        //删除上传的图片
         $(document).on("click", '.imgDel', function () {
             var $imgBox = $(this).parents(".imgBox"),
                 haveLen = $imgBox.find(".imgList").length - 1,
