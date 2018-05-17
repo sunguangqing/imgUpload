@@ -117,7 +117,9 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
             $fileBox.hide();
         }
     });
-    $(document).on("click", '.imgDel', function () {
+    
+    //删除上传的图片
+    $(document).on("click", '.imgDel', function () {
         var $imgBox = $(this).parents(".imgBox"),
             haveLen = $imgBox.find(".imgList").length - 1,
             maxLen = $imgBox.siblings(".imgFile").find("input").prop("maxlength"),
