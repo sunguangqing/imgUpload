@@ -14,7 +14,7 @@ https://sunguangqing.github.io/imgUpload/imgUpload.html
   </ul>
   <label class="imgFile"><input type="file" multiple maxlength="5" accept="image/gif, image/jpg, image/jpeg, image/png" /></label>
   <p class="fl imgPrompt">共<i></i>张，还能上传<i></i>张</p>
-  </div>
+</div>
 ```
 >更改 `.imgFile` 下 `input[type = "file"]` 控件的自定义属性 `maxlength` 的值来设定最多可上传图片的张数； 
 >accept="image/gif, image/jpg, image/jpeg, image/png" 用来过滤上传文件的格式。
