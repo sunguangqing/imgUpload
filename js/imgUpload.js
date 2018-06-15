@@ -14,6 +14,9 @@ $(function () {
                maxLen = $(this).prop("maxlength"),  //获取最多上传文件个数
                haveLen = $fileBox.siblings(".imgBox").find(".imgList").length,  //获取已上传文件个数
                needLen = maxLen - haveLen;
+           if(needLen === 0){
+               $fileBox.hide();
+           }
            $fileBox.siblings(".imgPrompt").html('<p class="imgPrompt">共<i>' + haveLen + '</i>张，还能上传<i>' + needLen + '</i>张</p>');
         });
         $fileTag.on("change", function () {
